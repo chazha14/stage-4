@@ -1,0 +1,248 @@
+/* 通用样式 start */
+
+body {
+    max-width: 750px;
+    min-width: 320px;
+    margin: 0 auto;
+    width: 10rem;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 75px!important;
+    }
+}
+
+
+/* 通用样式 end */
+
+
+/* <!-- 头部区域 start --> */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.706667rem;
+    width: 100%;
+    background-color: #446adf;
+}
+
+header img {
+    vertical-align: middle;
+    height: .96rem;
+}
+
+.email {
+    margin-left: .4rem;
+}
+
+.search {
+    margin-right: .4rem;
+}
+
+
+/* <!-- 头部区域 end --> */
+
+
+/* <!-- banner区域 start --> */
+
+.banner {
+    top: 1.706667rem;
+    left: 0;
+    width: 100%;
+    padding-bottom: 1.546667rem;
+    background-color: #F1F1F1;
+}
+
+.banner-pic {
+    height: 4.533333rem;
+}
+
+.banner-pic img {
+    height: 4.533333rem;
+    width: 100%;
+}
+
+
+/* <!-- banner区域 end --> */
+
+
+/* <!-- main区域 start --> */
+
+
+/* <!-- 就业课区域 start --> */
+
+.jobHunting {
+    margin-top: .426667rem;
+    height: 6.453333rem;
+    background-color: #ffffff;
+}
+
+.jobHunting h1 {
+    text-align: center;
+    font-size: .48rem;
+    line-height: .48rem;
+    color: #446ADF;
+}
+
+.jobHunting .circle {
+    display: inline-block;
+    vertical-align: middle;
+    height: .133333rem;
+    width: .133333rem;
+    border-radius: 50%;
+    background-color: #446ADF;
+}
+
+.jobHunting .category {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100%; */
+    margin-top: .693333rem;
+    /* background-color: blue; */
+}
+
+.jobHunting .category .item {
+    flex: 33.3333%;
+    width: 3.36rem;
+    height: 1.866667rem;
+    text-align: center;
+    line-height: 1.866667rem;
+}
+
+.jobHunting .category .item img {
+    width: 1.866667rem;
+    height: 1.866667rem;
+    border-radius: 50%;
+}
+
+.jobHunting .category .item:nth-child(2n) {
+    width: 3.306667rem;
+}
+
+.jobHunting .category .item:nth-child(n+4) {
+    margin-top: .853333rem;
+}
+
+
+/* <!-- 就业课区域 end --> */
+
+
+/* <!-- 微课区域 start --> */
+
+.miniCourse {
+    margin-top: .426667rem;
+    background-color: #ffffff;
+}
+
+.miniCourse h1 {
+    margin-top: .426667rem;
+    margin-bottom: .266667rem;
+    text-align: center;
+    font-size: .48rem;
+    line-height: .48rem;
+    color: #446ADF;
+}
+
+.miniCourse .circle {
+    display: inline-block;
+    vertical-align: middle;
+    height: .133333rem;
+    width: .133333rem;
+    border-radius: 50%;
+    background-color: #446ADF;
+}
+
+.miniCourse .category {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.miniCourse .category .item {
+    flex: 50%;
+    margin-top: .266667rem;
+}
+
+.miniCourse .category .item:nth-child(2n+1) {
+    padding-left: .16rem;
+    padding-right: .106667rem;
+}
+
+.miniCourse .category .item:nth-child(2n) {
+    padding-left: .106667rem;
+    padding-right: .16rem;
+}
+
+.miniCourse .category .item img {
+    width: 100%;
+    height: 2.666667rem;
+}
+
+.miniCourse .category .item h2 {
+    margin-top: .026667rem;
+    margin-left: .133333rem;
+    font-size: .426667rem;
+}
+
+.miniCourse .category .item h3 {
+    display: flex;
+    justify-content: space-between;
+    margin: .32rem 0rem;
+    font-size: .373333rem;
+}
+
+.miniCourse .category .item .studyNumber {
+    color: #D0D0D0;
+}
+
+.miniCourse .category .item .price {
+    color: #446ADF;
+}
+
+
+/* <!-- 微课区域 end--> */
+
+
+/* <!-- footer区域 start --> */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.546667rem;
+    background-color: #FFFFFF;
+    color: #5bb5f5;
+}
+
+footer .homepage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 1.066667rem;
+}
+
+footer .category {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 1.066667rem;
+}
+
+.iconfont {
+    font-size: .8rem!important;
+}
+
+
+/* <!-- footer区域 end --> */
